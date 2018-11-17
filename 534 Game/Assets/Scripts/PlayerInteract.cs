@@ -23,9 +23,9 @@ public class PlayerInteract : MonoBehaviour {
 
         if(hit.collider != null)
         {
-            Debug.Log(hit.collider.gameObject.name);
+           //Debug.Log(hit.collider.gameObject.name);
             BoatsMoveScript = hit.collider.gameObject.GetComponent<BoatsMove>();
-            Debug.Log("Press Spacebar");
+            //Debug.Log("Press Spacebar");
 
             if(Input.GetKeyDown(KeyCode.Space))
             {
