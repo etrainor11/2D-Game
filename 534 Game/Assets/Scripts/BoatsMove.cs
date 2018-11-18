@@ -24,21 +24,22 @@ public class BoatsMove : MonoBehaviour {
         {
             transform.Translate(Vector2.left * Time.deltaTime * speed);
         }
-        
-        //Destroy the boat after it leaves the screen on the left
-        if(transform.position.x <= -20.0f)
-        { 
-            Destroy(gameObject);
-        }
 
-        //Destroy the boat after it leaves the screen on the right
-        if(transform.position.x <= 10.0f)
+        if(transform.position.x > 15.00f)
         {
-            //NOTE: remember to add the variables of the boat to the country before destroying the object
+            Debug.Log("A boat has passed far off to the right and has now been destroyed");
             Destroy(gameObject);
         }
 
-	}
+        if (transform.position.x < -25.00f)
+        {
+            Debug.Log("A boat has passed far off to the left and has now been destroyed");
+            Destroy(gameObject);
+        }
 
-    
+        
+
+    }
+
+
 }
