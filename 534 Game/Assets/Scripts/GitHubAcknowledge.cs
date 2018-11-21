@@ -13,7 +13,7 @@ public class GitHubAcknowledge : MonoBehaviour {
         Debug.Log("This is " + names[0] +" standing by");
 
         //Ryan, uncomment this one when on 
-        Debug.Log("This is " + names[1] + " standing by");
+        //Debug.Log("This is " + names[1] + " standing by");
 
         //Steven, uncomment this one when on
         //Debug.Log("This is " + names[2] + " standing by");
