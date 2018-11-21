@@ -16,12 +16,12 @@ public class PlayerMove : MonoBehaviour {
 		
 
 
-        if(Input.GetKey(KeyCode.UpArrow) && transform.position.y < 5.00f)
+        if(Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(Vector2.up * Time.deltaTime * speed);
         }
 
-        if(Input.GetKey (KeyCode.DownArrow) && transform.position.y > -5.00f)
+        if(Input.GetKey (KeyCode.DownArrow))
         {
             transform.Translate(Vector2.down * Time.deltaTime * speed);
         }
