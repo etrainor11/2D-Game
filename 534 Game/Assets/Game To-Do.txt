@@ -3,3 +3,9 @@ Style the Start Level
 Style the Pause Menu
 
 Ensure size works on a variety of screens
+
+Decide on how spawning works on each level
+
+City?
+
+Stats?
