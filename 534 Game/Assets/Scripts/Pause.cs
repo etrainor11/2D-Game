@@ -10,6 +10,7 @@ public class Pause : MonoBehaviour {
     private void Start()
     {
         isPaused = false;
+        canvas.SetActive(false);
         
     }
 
@@ -19,7 +20,6 @@ public class Pause : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             isPaused = !isPaused;
-            Debug.Log("Is Paused is " + isPaused);
         }
 
         if(isPaused == true)
@@ -40,4 +40,18 @@ public class Pause : MonoBehaviour {
     {
         Application.Quit();
     }
+
+    public void PlayGame ()
+    {
+        isPaused = false;
+        Debug.Log("Game playing");
+    }
+
+    public void PauseGame ()
+    {
+        isPaused = true;
+        Debug.Log("Game paused");
+    }
+
+    
 }
