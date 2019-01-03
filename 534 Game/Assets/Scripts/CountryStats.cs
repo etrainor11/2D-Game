@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CountryStats : MonoBehaviour {
 
     public static int Population = 7000000;
-    public static float Healthcare = 75.00f;
+    public static float Healthcare = 30f;
     public static float GDP = 1250.37f;
 
     public Text[] texts;
