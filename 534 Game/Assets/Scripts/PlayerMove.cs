@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        Debug.Log("Game has started");
 	}
 	
 	// Update is called once per frame
@@ -16,12 +16,12 @@ public class PlayerMove : MonoBehaviour {
 		
 
 
-        if(Input.GetKey(KeyCode.UpArrow))
+        if(Input.GetKey(KeyCode.UpArrow) && gameObject.transform.position.y < 5.00f)
         {
             transform.Translate(Vector2.up * Time.deltaTime * speed);
         }
 
-        if(Input.GetKey (KeyCode.DownArrow))
+        if(Input.GetKey (KeyCode.DownArrow) && gameObject.transform.position.y > -4.00f)
         {
             transform.Translate(Vector2.down * Time.deltaTime * speed);
         }

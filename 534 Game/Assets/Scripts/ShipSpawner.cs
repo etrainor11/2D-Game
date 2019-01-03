@@ -6,6 +6,7 @@ public class ShipSpawner : MonoBehaviour {
 
     [Tooltip("The object we want to instantiate")]
     public GameObject obj;
+    public GameObject[] boats;
     [Space(10)]
     [Tooltip("The time between spawns")]
     public float spawnTime;
@@ -40,7 +41,11 @@ public class ShipSpawner : MonoBehaviour {
             time = 0.0f;
             //Debug.Log("Time is now past spawn time");
             randomSpawnPoint();
-            Instantiate(obj, spawnPoint, Quaternion.identity);
+            // Instantiate(obj, spawnPoint, Quaternion.identity);
+            int randomNum = 0;
+            randomNum = Random.Range(0, boats.Length);
+            Debug.Log(randomNum);
+            Instantiate(boats[randomNum], spawnPoint, Quaternion.identity);
             
         }
 	}
