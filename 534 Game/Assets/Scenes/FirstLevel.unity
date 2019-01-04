@@ -1304,7 +1304,7 @@ Transform:
   m_GameObject: {fileID: 1224381824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.519989, z: 0}
-  m_LocalScale: {x: 1.112, y: 1.112, z: 1.112}
+  m_LocalScale: {x: 1.268792, y: 1.268792, z: 1.268792}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1661,7 +1661,7 @@ Transform:
   m_GameObject: {fileID: 1459459075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5272217, z: 0}
-  m_LocalScale: {x: 1.113, y: 1.113, z: 1.113}
+  m_LocalScale: {x: 1.264368, y: 1.264368, z: 1.264368}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1917,3 +1917,31 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1975113692}
   m_CullTransparentMesh: 0
+--- !u!1 &2147126459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2147126460}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2147126460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2147126459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2644391, y: -3.7007296, z: -10.314197}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
