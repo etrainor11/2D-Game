@@ -10,12 +10,13 @@ public class Management : MonoBehaviour
     public float Level_Time;
     public SpriteRenderer backgroundRenderer;
     public Sprite[] sprites;
-    
+    private Scene theScene;
+
     // Use this for initialization
     void Start()
     {
         timer = 0.0f;
-
+        theScene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -37,6 +38,8 @@ public class Management : MonoBehaviour
             backgroundRenderer.sprite = sprites[0];
         }*/
 
+        
+        
         if (timer >= Level_Time)
         {
             //Load level here.

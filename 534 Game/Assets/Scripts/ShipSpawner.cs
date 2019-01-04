@@ -44,7 +44,7 @@ public class ShipSpawner : MonoBehaviour {
             // Instantiate(obj, spawnPoint, Quaternion.identity);
             int randomNum = 0;
             randomNum = Random.Range(0, boats.Length);
-            Debug.Log(randomNum);
+            //Debug.Log(randomNum);
             Instantiate(boats[randomNum], spawnPoint, Quaternion.identity);
             
         }
