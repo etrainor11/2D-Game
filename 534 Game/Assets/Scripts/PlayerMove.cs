@@ -9,6 +9,9 @@ public class PlayerMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Debug.Log("Game has started");
+
+        //Set the initial position for the player for each level
+        gameObject.transform.position = new Vector2(7.04f, -0.38f);
 	}
 	
 	// Update is called once per frame

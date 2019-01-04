@@ -26,7 +26,7 @@ public class Management : MonoBehaviour
         //This was for testing only. Add back if needed
 
         timer += Time.deltaTime;
-        Debug.Log(timer);
+        //Debug.Log(timer);
 
         /*if(timer >= 60.00f)
         {
