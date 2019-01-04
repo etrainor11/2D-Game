@@ -14,7 +14,7 @@ public class CountryStats : MonoBehaviour {
     private void Update()
     {
         texts[0].text = Population.ToString();
-        texts[1].text = Healthcare.ToString();
-        texts[2].text = GDP.ToString();
+        texts[1].text = Healthcare.ToString("F2");
+        texts[2].text = GDP.ToString("F2");
     }
 }
