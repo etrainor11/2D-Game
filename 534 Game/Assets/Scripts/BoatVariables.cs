@@ -13,15 +13,15 @@ public class BoatVariables : MonoBehaviour {
 	void Start () {
 		if(gameObject.name == "RefugeeSprite(Clone)")
         {
-            people = Random.Range(25, 75);
-            healthAffect = Random.Range(-0.005f, 0.005f);
+            people = Random.Range(5, 15);
+            healthAffect = Random.Range(0.1f, 0.5f);
             GDP_Affect = Random.Range(-0.0025f, 0.0025f);
         }
 
         if (gameObject.name == "RefugeeSprite2(Clone)")
         {
-            people = Random.Range(80, 200);
-            healthAffect = Random.Range(-0.010f, 0.015f);
+            people = Random.Range(30, 70);
+            healthAffect = Random.Range(0.5f, 0.9f);
             GDP_Affect = Random.Range(-0.0050f, 0.010f);
         }
 
