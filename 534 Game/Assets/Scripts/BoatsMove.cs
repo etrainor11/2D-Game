@@ -46,7 +46,11 @@ public class BoatsMove : MonoBehaviour {
 
         if (transform.position.x < -25.00f)
         {
-            Debug.Log("A boat has passed far off to the left and has now been destroyed");
+            /*This adds the variables to the static variables of the numbers turned away*/
+            CountryStats.PopOut = CountryStats.PopOut + variables.people;
+            CountryStats.HealthOut = CountryStats.HealthOut + variables.healthAffect;
+            CountryStats.GDPOut = CountryStats.GDPOut + variables.GDP_Affect;
+            
             Destroy(gameObject);
         }
 

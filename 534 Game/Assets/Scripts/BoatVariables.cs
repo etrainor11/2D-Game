@@ -22,7 +22,14 @@ public class BoatVariables : MonoBehaviour {
         {
             people = Random.Range(30, 70);
             healthAffect = Random.Range(0.5f, 0.9f);
-            GDP_Affect = Random.Range(-0.0050f, 0.010f);
+            GDP_Affect = Random.Range(-0.0050f, 0.0050f);
+        }
+
+        if (gameObject.name == "RefugeeSprite3(Clone)")
+        {
+            people = Random.Range(60, 200);
+            healthAffect = Random.Range(1.0f, 2.0f);
+            GDP_Affect = Random.Range(-0.01f, 0.01f);
         }
 
     }

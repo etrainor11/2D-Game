@@ -1374,10 +1374,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff6606c7b9a8db4a97151d60a07273e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1000142947229246, guid: 120fc7d95f9b1ca41ad6fbb21cf46fcc, type: 2}
   boats:
   - {fileID: 1000142947229246, guid: 120fc7d95f9b1ca41ad6fbb21cf46fcc, type: 2}
   - {fileID: 1081277453511192, guid: 8ba14120bb70fb245879a25873f028cf, type: 2}
+  - {fileID: 1731153746514210, guid: 662568bc27e73c64aa29128cefee6c7e, type: 2}
   spawnTime: 4
   time: 0
 --- !u!61 &1612504043

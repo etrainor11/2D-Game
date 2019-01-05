@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShipSpawner : MonoBehaviour {
 
     [Tooltip("The object we want to instantiate")]
-    public GameObject obj;
     public GameObject[] boats;
     [Space(10)]
     [Tooltip("The time between spawns")]
@@ -17,6 +17,7 @@ public class ShipSpawner : MonoBehaviour {
     private Transform spawnTrans;
     private BoxCollider2D box;
     private Vector2 boxBound1, boxBound2;
+    private Scene currentScene;
 
     private void Start()
     {
@@ -24,7 +25,7 @@ public class ShipSpawner : MonoBehaviour {
         boxBound1 = box.bounds.min;
         boxBound2 = box.bounds.max;
 
-        
+        currentScene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -62,5 +63,7 @@ public class ShipSpawner : MonoBehaviour {
         //Debug.Log(spawnPoint);
         
     }
+
+   
 
 }
