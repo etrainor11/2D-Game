@@ -10,8 +10,11 @@ public class Management : MonoBehaviour
     public float Level_Time;
     public SpriteRenderer backgroundRenderer;
     public Sprite[] sprites;
+    public CountryStats stats;
+    private bool newsUp;
     private Scene theScene;
     public bool attack;
+    
 
     // Use this for initialization
     void Start()
@@ -19,6 +22,7 @@ public class Management : MonoBehaviour
         timer = 0.0f;
         theScene = SceneManager.GetActiveScene();
         attack = false;
+        newsUp = false;
     }
 
     // Update is called once per frame
@@ -43,6 +47,7 @@ public class Management : MonoBehaviour
         {
             SceneManager.LoadSceneAsync("EndLevel");
         }
+
 
         
         if (timer >= Level_Time)

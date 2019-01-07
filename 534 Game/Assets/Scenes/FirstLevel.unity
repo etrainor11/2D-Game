@@ -673,6 +673,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 7f2c91d74a84fb94fb18e6995a3d2689, type: 3}
   - {fileID: 21300000, guid: 32a9eaf5ba567eb4282bfe0bfb45d671, type: 3}
+  attack: 0
 --- !u!1001 &740613056
 Prefab:
   m_ObjectHideFlags: 0
@@ -1035,7 +1036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff6606c7b9a8db4a97151d60a07273e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1000142947229246, guid: 120fc7d95f9b1ca41ad6fbb21cf46fcc, type: 2}
   boats:
   - {fileID: 1000142947229246, guid: 120fc7d95f9b1ca41ad6fbb21cf46fcc, type: 2}
   - {fileID: 1081277453511192, guid: 8ba14120bb70fb245879a25873f028cf, type: 2}
