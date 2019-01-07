@@ -11,12 +11,14 @@ public class Management : MonoBehaviour
     public SpriteRenderer backgroundRenderer;
     public Sprite[] sprites;
     private Scene theScene;
+    public bool attack;
 
     // Use this for initialization
     void Start()
     {
         timer = 0.0f;
         theScene = SceneManager.GetActiveScene();
+        attack = false;
     }
 
     // Update is called once per frame
@@ -37,8 +39,11 @@ public class Management : MonoBehaviour
         {
             backgroundRenderer.sprite = sprites[0];
         }*/
+        if (attack == true)
+        {
+            SceneManager.LoadSceneAsync("EndLevel");
+        }
 
-        
         
         if (timer >= Level_Time)
         {

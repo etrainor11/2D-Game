@@ -114,6 +114,10 @@ MonoBehaviour:
   speed: 3
   entering: 0
   renderer: {fileID: 0}
+  sprites:
+  - {fileID: 21300000, guid: 513cb06620218a54f80a37623b26fc25, type: 3}
+  - {fileID: 21300000, guid: a66f44a0bfe71c648a7426e4c77ef766, type: 3}
+  managementScript: {fileID: 0}
 --- !u!212 &212792711017132272
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -25,22 +25,26 @@ public class PlayerInteract : MonoBehaviour {
         {
            //Debug.Log(hit.collider.gameObject.name);
             BoatsMoveScript = hit.collider.gameObject.GetComponent<BoatsMove>();
-            //Debug.Log("Press Spacebar");
-
-            if(hit.collider.gameObject.name ==  "RefugeeSprite(Clone)")
+            SpriteRenderer renderer = hit.collider.gameObject.GetComponent<SpriteRenderer>();
+            if(BoatsMoveScript.entering == true)
             {
-                //put highlight in here
-            }
+                BoatsMoveScript.interactable = true;
+            }           
 
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 BoatsMoveScript.entering = false;
                 BoatsMoveScript = null;
+                renderer = null;
                 //change point sprite to the one looking away 
             }
         }
-        
 
+        else
+        {
+            BoatsMoveScript.interactable = false;
+            BoatsMoveScript = null;
+        }
 
         Debug.DrawRay(transform.position, Vector2.left * length, Color.black);
     }

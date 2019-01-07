@@ -106,6 +106,10 @@ MonoBehaviour:
   speed: 2
   entering: 0
   renderer: {fileID: 0}
+  sprites:
+  - {fileID: 21300000, guid: 5b23c6354c7877b4cb80ab6d9b76edc0, type: 3}
+  - {fileID: 21300000, guid: 4d0978220dbd91f46b2499e992352d15, type: 3}
+  managementScript: {fileID: 0}
 --- !u!212 &212272722720050450
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -142,7 +146,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5b23c6354c7877b4cb80ab6d9b76edc0, type: 3}
-  m_Color: {r: 0.4433962, g: 0.035555363, b: 0.035555363, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

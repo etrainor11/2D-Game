@@ -80,6 +80,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   length: 1.5
+  boatSprites:
+  - {fileID: 21300000, guid: 5b23c6354c7877b4cb80ab6d9b76edc0, type: 3}
+  - {fileID: 21300000, guid: 4d0978220dbd91f46b2499e992352d15, type: 3}
+  - {fileID: 21300000, guid: 513cb06620218a54f80a37623b26fc25, type: 3}
+  - {fileID: 21300000, guid: a66f44a0bfe71c648a7426e4c77ef766, type: 3}
+  - {fileID: 21300000, guid: 7ff22115648bc6441bbea02d42174128, type: 3}
+  - {fileID: 21300000, guid: 04f633bba55be45499b0f940c10d84f8, type: 3}
 --- !u!212 &212265339388520986
 SpriteRenderer:
   m_ObjectHideFlags: 1
