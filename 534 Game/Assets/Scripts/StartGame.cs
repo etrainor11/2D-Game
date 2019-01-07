@@ -21,4 +21,10 @@ public class StartGame : MonoBehaviour {
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quiting the game");
+        Application.Quit();
+    }
 }
