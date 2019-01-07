@@ -80,13 +80,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   length: 1.5
-  boatSprites:
-  - {fileID: 21300000, guid: 5b23c6354c7877b4cb80ab6d9b76edc0, type: 3}
-  - {fileID: 21300000, guid: 4d0978220dbd91f46b2499e992352d15, type: 3}
-  - {fileID: 21300000, guid: 513cb06620218a54f80a37623b26fc25, type: 3}
-  - {fileID: 21300000, guid: a66f44a0bfe71c648a7426e4c77ef766, type: 3}
-  - {fileID: 21300000, guid: 7ff22115648bc6441bbea02d42174128, type: 3}
-  - {fileID: 21300000, guid: 04f633bba55be45499b0f940c10d84f8, type: 3}
 --- !u!212 &212265339388520986
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -122,8 +115,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: dba45f22e14ab31488542fdc8caa6502, type: 3}
-  m_Color: {r: 0.105731584, g: 0.8301887, b: 0.14931227, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ed7b8cd1b7a4c434c8754c781f75799d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

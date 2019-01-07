@@ -775,6 +775,18 @@ Prefab:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 214856775}
+    - target: {fileID: 4510917132761608, guid: 38d53b275962b784fa623ced9ffc2e76, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510917132761608, guid: 38d53b275962b784fa623ced9ffc2e76, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510917132761608, guid: 38d53b275962b784fa623ced9ffc2e76, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38d53b275962b784fa623ced9ffc2e76, type: 2}
   m_IsPrefabAsset: 0
@@ -1116,6 +1128,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 7f2c91d74a84fb94fb18e6995a3d2689, type: 3}
   - {fileID: 21300000, guid: 32a9eaf5ba567eb4282bfe0bfb45d671, type: 3}
+  attack: 0
 --- !u!4 &1376434620
 Transform:
   m_ObjectHideFlags: 0
