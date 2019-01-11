@@ -1,23 +1,10 @@
-Get on GitHub and download the  GitHub Desktop application
+Rescale UI
 
-Style the Start Level - add music, visuals, etc
+Redesign UI
 
-Style the Pause Menu - visuals
+Decide on Boat Spawn vaiables
 
-Ensure size works on a variety of screens - build a few iterations on a few computers
+Test Game
 
-Decide on how spawning works on each level - how many boats spawn at what time? what type of boats are spawning?
+Upload to Twitch
 
-(In relations to last point) How difficult is this game going to be?
-
-Create a player boat, have it so it can look up, down and side-to-side if possible
-
-Create City assets for each season - buildings, cars, roads, etc
-
-Create Refugee City assests for each season - tents, campsites, etc
-
-Further research on refugee stats, try to focus on mediteranian numbers.
-
-What news articles are we making? How many?
-
-Decision on stats - what stats are we using? how do they work in relation to refugees?

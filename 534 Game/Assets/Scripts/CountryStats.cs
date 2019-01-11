@@ -15,6 +15,8 @@ public class CountryStats : MonoBehaviour {
     public static float GDPOut;
     public Text[] texts;
 
+    public Sprite[] newSprites;
+
     private void Update()
     { 
         texts[0].text = Population.ToString();

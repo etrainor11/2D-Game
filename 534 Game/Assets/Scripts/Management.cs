@@ -45,6 +45,7 @@ public class Management : MonoBehaviour
         }*/
         if (attack == true)
         {
+            Debug.Log("attack is" + attack);
             SceneManager.LoadSceneAsync("EndLevel");
         }
 

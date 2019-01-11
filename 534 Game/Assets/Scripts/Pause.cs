@@ -7,11 +7,13 @@ public class Pause : MonoBehaviour {
 
     public bool isPaused;
     public GameObject canvas;
+    public AudioSource source;
 
     private void Start()
     {
         isPaused = false;
         canvas.SetActive(false);
+        source.Play();
         
     }
 
@@ -21,19 +23,26 @@ public class Pause : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             isPaused = !isPaused;
+            
         }
 
         if(isPaused == true)
         {
             Time.timeScale = 0.0f;
             canvas.SetActive(true);
+            source.Pause();
         }
         else
         {
             Time.timeScale = 1.0f;
             canvas.SetActive(false);
+            if(source.isPlaying == false)
+            {
+                source.UnPause();
+            }
         }
 
+        
 
 	}
 
@@ -42,7 +51,7 @@ public class Pause : MonoBehaviour {
         //Application.Quit();
         SceneManager.LoadSceneAsync(0);
         CountryStats.Population = 7000000;
-        CountryStats.Healthcare = 75.00f;
+        CountryStats.Healthcare = 30.00f;
         CountryStats.GDP = 1250.37f;
     }
 
@@ -56,6 +65,7 @@ public class Pause : MonoBehaviour {
     {
         isPaused = true;
         Debug.Log("Game paused");
+
     }
 
     
